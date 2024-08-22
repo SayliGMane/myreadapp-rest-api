@@ -485,4 +485,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+
+csv/
+
 # End of https://www.toptal.com/developers/gitignore/api/django,python,macos,windows,linux,visualstudiocode,pycharm,venv,virtualenv

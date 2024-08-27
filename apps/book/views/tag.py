@@ -5,7 +5,7 @@ from apps.book.models import Tag
 from apps.book.serializers import TagSerializer
 
 
-@api_view(['GET'])
+@api_view(['GET']) #define our http
 def list_tags(request):
     # Get all tags using ORM
     tags = Tag.objects.all()
